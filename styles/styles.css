@@ -48,6 +48,7 @@ hr {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  /* wow okay */
   margin-top: 20rem;
   margin-bottom: 20rem;
   border: 2px solid var(--primary-color);
@@ -134,13 +135,14 @@ hr {
   display: block;
   margin: auto;
 
-  -webkit-box-shadow: 12px 12px 35px -6px rgba(154, 203, 237, 1);
+  /* -webkit-box-shadow: 12px 12px 35px -6px rgba(154, 203, 237, 1);
   -moz-box-shadow: 12px 12px 35px -6px rgba(154, 203, 237, 1);
-  box-shadow: 12px 12px 35px -6px rgba(154, 203, 237, 1);
+  box-shadow: 12px 12px 35px -6px rgba(154, 203, 237, 1); */
 }
 
 .hero .hero-heading {
-  padding-top: 2rem;
+  margin: 1rem 0rem;
+  padding: 2rem 0rem;
   font-size: 36px;
   color: var(--grey);
   max-width: 350px;
@@ -172,6 +174,10 @@ hr {
 }
 .section-off {
   background-color: var(--background);
+}
+
+.para {
+  margin: 2rem 0rem;
 }
 
 /* Footer  */
